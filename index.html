@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WiFi Pricing Plans</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="pricing">
+    <div class="pricing-header">
+      <h1>WiFi Plans</h1>
+      <div class="toggle">
+        <button>Annual</button>
+        <button class="active">Monthly</button>
+      </div>
+    </div>
+
+    <div class="pricing-cards">
+      <!-- WiFi Basic -->
+      <input type="radio" name="plan" id="wifi-basic" class="card-radio">
+      <label for="wifi-basic" class="card">
+        <h2>WiFi Basic</h2>
+        <p class="price">$20 <span>/ month</span></p>
+        <p class="billing">$240 billed yearly</p>
+        <p class="desc">
+          Affordable plan for simple browsing, messaging, and light streaming.
+        </p>
+        <ul class="features">
+          <li>✅ Up to 50 Mbps speed</li>
+          <li>✅ 200 GB data</li>
+          <li>❌ Free router rental</li>
+          <li>❌ Email support</li>
+          <li>❌ 24/7 technical support</li>
+        </ul>
+        <button class="btn cancel">Select</button>
+      </label>
+
+      <!-- WiFi Standard (default active) -->
+      <input type="radio" name="plan" id="wifi-standard" class="card-radio" checked>
+      <label for="wifi-standard" class="card">
+        <h2>WiFi Standard</h2>
+        <p class="price"><span class="old">$35</span> $30 <span>/ month</span></p>
+        <p class="billing">$360 billed yearly</p>
+        <p class="desc">
+          Reliable speed and data for streaming, video calls, and work-from-home tasks.
+        </p>
+        <ul class="features">
+          <li>✅ Up to 100 Mbps speed</li>
+          <li>✅ 500 GB data</li>
+          <li>✅ Free router rental</li>
+          <li>✅ Email support</li>
+          <li>❌ 24/7 technical support</li>
+          <li>❌ Advanced firewall</li>
+        </ul>
+        <button class="btn">Start 7-days Free Trial</button>
+      </label>
+
+      <!-- WiFi Premium -->
+      <input type="radio" name="plan" id="wifi-premium" class="card-radio">
+      <label for="wifi-premium" class="card">
+        <h2>WiFi Premium</h2>
+        <p class="price">$50 <span>/ month</span></p>
+        <p class="billing">$600 billed yearly</p>
+        <p class="desc">
+          Ultra-fast speeds and unlimited data for gaming, streaming, and heavy work usage.
+        </p>
+        <ul class="features">
+          <li>✅ Up to 200 Mbps speed</li>
+          <li>✅ Unlimited data usage</li>
+          <li>✅ Free WiFi router</li>
+          <li>✅ 24/7 technical support</li>
+          <li>✅ Advanced firewall</li>
+          <li>✅ Easy installation</li>
+        </ul>
+        <button class="btn">Start 7-days Free Trial</button>
+      </label>
+    </div>
+  </section>
+</body>
+</html>
